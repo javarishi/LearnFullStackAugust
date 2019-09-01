@@ -1,6 +1,10 @@
 package com.h2kinfosys.learnJava.inheritance.sears;
+
+import java.io.Serializable;
+
 // You cannot create a Sub class of a Final Class
-public final class CreditCardCustomer extends PreferredCustomer {
+// You can achieve multiple inheritance - implement more than one interface in single class
+public final class CreditCardCustomer extends PreferredCustomer implements Serializable {
 	
 	private String validCreditCard = null;
 	
@@ -30,4 +34,10 @@ public final class CreditCardCustomer extends PreferredCustomer {
 		return true;
 	}
 
+	
+	@Override
+	public void secondDefault() {
+		// TODO Auto-generated method stub
+		super.secondDefault();
+	}
 }

@@ -29,7 +29,7 @@ public class Tester {
 			System.out.println("Valid CreditCardCustomer Address");
 		}
 		creditCard.methodChecking();
-		
+		creditCard.tryNonAbstract();
 		
 		Tester test = new Tester();
 		//test.tryToChange = "Another value";

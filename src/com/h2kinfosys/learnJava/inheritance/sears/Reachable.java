@@ -11,9 +11,13 @@ public interface Reachable {
 	public abstract boolean validateAddress(String address);
 	
 	// Interface methods (as abstract ) cannot have body - unless declared default
-	/*
-	public  void tryNonAbstract() {
+	
+	public default void tryNonAbstract() {
 		System.out.println("Trying non abstract method");
-	}*/
+	}
+	
+	public default void secondDefault() {
+		System.out.println("Second default");
+	}
 
 }
