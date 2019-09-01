@@ -4,6 +4,7 @@ public class ChildClass extends Parent{
 	
 
 	String commonVariable = "ChildClass Something common";
+	String newVariable = "Fetch Test";
 	
 	public ChildClass() {
 		super("Sample");
