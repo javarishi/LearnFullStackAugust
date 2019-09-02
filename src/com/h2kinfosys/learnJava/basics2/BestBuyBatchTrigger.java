@@ -2,8 +2,6 @@ package com.h2kinfosys.learnJava.basics2;
 
 import java.util.Calendar;
 
-import com.h2kinfosys.learnJava.basics.Variables;
-
 public class BestBuyBatchTrigger {
 
 	// ctrl + shift + t ==> type class name

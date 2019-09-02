@@ -1,0 +1,45 @@
+marks = [12,16,18,20]
+Arrays - 
+int[] marks = {12,16,18,20}
+
+Collection Framework:
+Collecting similar datatypes in single object
+
+Collection Interface
+Collection c = {12,16,18,20}
+
+c.size() = 4
+c.isEmpty() = false
+c.contains(12) = true
+c.contains(25) = false
+c.add(15)
+c = {12,16,18,20,15}
+c.remove(12)
+c = {16,18,20,15}
+c_a = {16,18}
+c_b = {22,25}
+
+c.containsAll(c_a) = true
+c.containsAll(c_b) = false 
+
+c.addAll(c_b) 
+c = {16,18,20,15,22,25}
+
+c.removeAll(c_a)
+c = {20,15,22,25}
+
+c.retainAll(c_b)
+c = {22,25}
+
+c.clear()
+c = {}
+
+
+Use cases for different Collection:
+
+Set <-- Do Not Allow Duplicates
+List <-- positional access to elements <-- List
+Queue <-- With FIFO 
+Deque <-- Allows FIFO and LIFO
+
+
